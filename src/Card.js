@@ -3,6 +3,7 @@ const img =
   "https://a71eba0458acf57331d3-d31ce5ebd093935dff8526660841b743.ssl.cf2.rackcdn.com/products/b13305_1.jpg";
 
 const price = 4.26
+const name = "Marco"
 
 const Card = () => {
   return (
@@ -12,7 +13,7 @@ const Card = () => {
         <h6>200€ Airbnb +400P</h6>
         <div className="divisore my-3"></div>
         <h5 className="price fw-bold">{price}</h5>
-        <h6>utente1021</h6>
+        <h6>{name}</h6>
         <p className="timer fw-bold">00:05</p>
         <div className="puntata">PUNTA</div>
       </div>
