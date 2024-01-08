@@ -3,8 +3,8 @@ const img = "https://a71eba0458acf57331d3-d31ce5ebd093935dff8526660841b743.ssl.c
 
 const Card = () => {
     return (
-        <article>
-            <img src={img} alt="immagine di card" />
+        <article className='col-3'>
+            <img src={img} alt="immagine di card" className='img-fluid' />
         </article>
     )
 }
