@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Ciao a tutti</h1>
       <Component />
-      <div className="d-flex justify-content-center row">
+      <div className="d-flex justify-content-evenly row">
         <Card />
         <Card />
         <Card />
